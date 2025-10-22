@@ -179,7 +179,7 @@ def main():
         description="从二维码测试PDF提取文本：优先直接提取文本，失败则渲染后扫描二维码。"
     )
     parser.add_argument(
-        "input", nargs="?", default="二维码测试.pdf", help="输入 PDF 文件路径"
+        "input", nargs="?", default="测试文档.pdf", help="输入 PDF 文件路径"
     )
     parser.add_argument(
         "output", nargs="?", default="result.txt", help="输出 TXT 文件路径（UTF-8）"
